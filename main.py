@@ -51,8 +51,8 @@ WEBRTC_CLIENT_SETTINGS = ClientSettings(
 
 def main():
 
-    st.title("Lite Real time Object Detection WebApp - I")
-    st.subheader("Using YOLOv4")
+    st.title("Lite Real time Object Detection WebApp")
+    st.subheader("Using YOLOv4 tiny")
 
     option = st.selectbox(
         'Please Select the Configuration file', ("yolov4-tiny.cfg",))
@@ -91,16 +91,16 @@ def main():
     This app displays only data from COCO dataset downloaded from https://pjreddie.com/darknet/yolo/
     and the configuration files and weights can be changed from the source code by downloading them from the above website.
 
-    You can see how this works in the [see the code](https://github.com/rahularepaka/ObjectDetectionWeb).
+    You can see how this works in the [see the code](https://github.com/rahularepaka/ObjectDetectionYolov4Web).
 
     """)
 
-    with st.expander("Source Code",expanded=False):
-        code = '''
+    with st.expander("Source Code", expanded=False):
+        st.markdown("""
 
         https://github.com/rahularepaka/ObjectDetectionYolov4Web/blob/main/src/yolo-main.py
         
-        '''
+        """)
 
     with st.expander("License"):
 
