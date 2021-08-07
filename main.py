@@ -74,9 +74,9 @@ def main():
 
     st.subheader("List of COCO dataset")
     st.text("Total number of dataset are 80")
-    df = pd.read_excel("./dataset.xlsx")
+    #df = pd.read_excel("./dataset.xlsx")
 
-    st.write(df)
+    #st.write(df)
 
     st.subheader("How does it work ?")
     st.text("Here is visualization of the algorithm")
@@ -95,7 +95,7 @@ def main():
 
     """)
 
-    with st.expander("Source Code"):
+    with st.expander("Source Code",expanded=False):
         code = '''
 
         https://github.com/rahularepaka/ObjectDetectionYolov4Web/blob/main/src/yolo-main.py
