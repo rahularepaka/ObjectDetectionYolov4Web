@@ -68,9 +68,9 @@ def main():
 
     app_object_detection()
 
-    st.error('Please allow access to camera and microphone inorder for this to work')
+    st.error('Please allow access to camera and microphone in order for this to work')
     st.warning(
-        'The object detection model might varies due to the free server and internet speed')
+        'The object detection model might varies due to the server speed and internet speed')
 
     st.subheader("List of COCO dataset")
     st.text("Total number of dataset are 80")
