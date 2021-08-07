@@ -133,12 +133,12 @@ COLORS = [(0, 255, 0), (0, 0, 255), (255, 0, 0),
 class_name = []
 
 # for reading all the datasets from the coco.names file into the array
-with open("models\\coco.names", 'rt') as f:
+with open("/app/objectdetectionyolov4web/models/coco.names", 'rt') as f:
     class_name = f.read().rstrip('\n').split('\n')
 
 # configration and weights file location
-model_config_file = "models\\yolov4-tiny.cfg"
-model_weight = "models\\yolov4-tiny.weights"
+model_config_file = "/app/objectdetectionyolov4web/models/yolov4-tiny.cfg"
+model_weight = "/app/objectdetectionyolov4web/models/yolov4-tiny.weights"
 
 # darknet files
 net = cv2.dnn.readNet(model_weight, model_config_file)
