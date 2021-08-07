@@ -74,7 +74,7 @@ def main():
 
     st.subheader("List of COCO dataset")
     st.text("Total number of dataset are 80")
-    df = pd.read_excel("dataset.xlsx")
+    df = pd.read_excel("/app/objectdetectionyolov4web/dataset.xlsx")
 
     st.write(df)
 
