@@ -51,7 +51,7 @@ WEBRTC_CLIENT_SETTINGS = ClientSettings(
 
 def main():
 
-    st.title("Lite Real time Object Detection WebApp")
+    st.title("Lite Real time Object Detection WebApp - I")
     st.subheader("Using YOLOv4")
 
     option = st.selectbox(
@@ -74,9 +74,9 @@ def main():
 
     st.subheader("List of COCO dataset")
     st.text("Total number of dataset are 80")
-    df = pd.read_excel("dataset.xlsx")
+    #df = pd.read_excel("dataset.xlsx")
 
-    st.write(df)
+    #st.write(df)
 
     st.subheader("How does it work ?")
     st.text("Here is visualization of the algorithm")
