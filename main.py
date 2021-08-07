@@ -80,9 +80,9 @@ def main():
 
     st.subheader("How does it work ?")
     st.text("Here is visualization of the algorithm")
-    st.image("/Media/pic1.png", caption="YOLO Object Detection of 'Dog', 'Bicycle, 'Car'", width=None, use_column_width=None,
+    st.image(".//Media//pic1.png", caption="YOLO Object Detection of 'Dog', 'Bicycle, 'Car'", width=None, use_column_width=None,
              clamp=False, channels='RGB', output_format='auto')
-    st.image("/Media/pic2.png", caption="Algorithm", width=None, use_column_width=None,
+    st.image("./Media/pic2.png", caption="Algorithm", width=None, use_column_width=None,
              clamp=False, channels='RGB', output_format='auto')
 
     st.subheader("About this App")
