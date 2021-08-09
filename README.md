@@ -61,7 +61,7 @@ model_weight = "yolo-weights\\yolov3-tiny.weights"
 
 ```
 
-# How to Run this Program 🏃‍♂️
+# How to Run this Program using streamlit🏃‍♂️
 ```
 streamlit run main.py
 ```
@@ -70,7 +70,8 @@ streamlit run main.py
 You can read more about [YOLO](https://pjreddie.com/darknet/yolo/)
 and more about [streamlit](https://streamlit.io/)
 
-#About Me 😉
+# About Me 😉
+
 I am Rahul Arepaka, II year CompSci student at Ecole School of Engineering, Mahindra University
 ```
 Feel free to edit with the source code and enjoy coding
