@@ -7,6 +7,10 @@ This is WebApp of my previous repo [here](https://github.com/rahularepaka/Object
 
 To change the weights and configurations file , you may do so by changing the file directory of the same.
 
+# Demo on Streamlit [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/rahularepaka/objectdetectionyolov4web/main/main.py)
+
+https://user-images.githubusercontent.com/10435564/128665060-5993f417-4633-4007-9d73-e8928c0fbdb3.mp4
+
 # Requirements 🏫
 ```
 - aiortc==1.2.1
